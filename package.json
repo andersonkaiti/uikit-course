@@ -6,6 +6,7 @@
   "scripts": {
     "prepare": "husky",
     "dev": "storybook dev -p 6006",
+    "build": "tsup",
     "build:storybook": "storybook build"
   },
   "dependencies": {
@@ -40,6 +41,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
     "storybook": "^10.6.5",
+    "tsup": "^9.0.0",
     "typescript": "~7.0.2",
     "vite": "^8.3.5"
   },
