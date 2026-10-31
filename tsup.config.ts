@@ -5,5 +5,8 @@ export default defineConfig({
   minify: true,
   clean: true,
   format: ['esm', 'cjs'],
-  onSuccess: 'tsc -p tsconfig.build.json', // generates the type definition files
+  onSuccess: [
+    'tsc -p tsconfig.build.json',
+    'tailwindcss -i ./src/build.css -o ./dist/index.css --minify',
+  ].join(' && '),
 })
