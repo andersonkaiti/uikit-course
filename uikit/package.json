@@ -17,12 +17,14 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-    "./index.css": "./dist/index.css"
+    "./index.css": "./dist/index.css",
+    "./tailwind-preset": "./dist/index.css"
   },
   "scripts": {
     "prepare": "husky",
     "dev": "storybook dev -p 6006",
     "build": "tsup",
+    "build:watch": "tsup --watch src",
     "build:storybook": "storybook build"
   },
   "dependencies": {
