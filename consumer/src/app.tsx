@@ -7,7 +7,7 @@ import {
 
 export function App() {
   return (
-    <div>
+    <div className="bg-primary">
       <Button>Hello, JStack!</Button>
 
       <Avatar>

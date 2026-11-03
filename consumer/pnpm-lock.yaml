@@ -9,14 +9,20 @@ importers:
   .:
     dependencies:
       '@andersonkaiti/uikit':
-        specifier: ^0.0.7
-        version: 0.0.7(@types/react@19.3.0)(vite@8.3.5(@types/node@24.19.2)(jiti@2.7.0))
+        specifier: file:..\uikit
+        version: file:../uikit(@types/react@19.3.0)(vite@8.3.5(@types/node@24.19.2)(jiti@2.7.0))
+      '@tailwindcss/vite':
+        specifier: ^4.3.3
+        version: 4.3.3(vite@8.3.5(@types/node@24.19.2)(jiti@2.7.0))
       react:
         specifier: ^19.3.1
         version: 19.3.1
       react-dom:
         specifier: ^19.3.1
         version: 19.3.1(react@19.3.1)
+      tailwindcss:
+        specifier: ^4.3.3
+        version: 4.3.3
     devDependencies:
       '@babel/core':
         specifier: ^7.29.7
@@ -57,8 +63,8 @@ importers:
 
 packages:
 
-  '@andersonkaiti/uikit@0.0.7':
-    resolution: {integrity: sha512-uEGle6GoVrzh/SZKvlLhfw2KFrdzeS1bOqAlj0H6xjHMbCC0xUNSHzYsEwyRYEt1ikvi5X1JhOGcB6Lg58BXuw==}
+  '@andersonkaiti/uikit@file:../uikit':
+    resolution: {directory: ../uikit, type: directory}
 
   '@babel/code-frame@7.29.7':
     resolution: {integrity: sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw==}
@@ -1750,7 +1756,7 @@ packages:
 
 snapshots:
 
-  '@andersonkaiti/uikit@0.0.7(@types/react@19.3.0)(vite@8.3.5(@types/node@24.19.2)(jiti@2.7.0))':
+  '@andersonkaiti/uikit@file:../uikit(@types/react@19.3.0)(vite@8.3.5(@types/node@24.19.2)(jiti@2.7.0))':
     dependencies:
       '@base-ui/react': 1.9.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@fontsource-variable/inter': 5.3.0
