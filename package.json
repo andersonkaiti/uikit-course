@@ -1,6 +1,11 @@
 {
   "name": "@andersonkaiti/uikit",
   "version": "0.0.1",
+  "description": "Biblioteca de componentes React construída com Tailwind CSS e shadcn/ui, com tipos em TypeScript e suporte a tema claro e escuro.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonkaiti/uikit-course.git"
+  },
   "type": "module",
   "files": [
     "dist"
