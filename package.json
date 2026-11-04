@@ -1,6 +1,6 @@
 {
   "name": "@andersonkaiti/uikit",
-  "version": "0.0.12",
+  "version": "0.0.1",
   "type": "module",
   "files": [
     "dist"
